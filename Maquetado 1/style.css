@@ -1,0 +1,88 @@
+.container{
+    width: 1000px;
+    border: solid black;
+}
+.navegador{
+    display: flex;
+    height: 100px;
+    border: solid;
+    background-color: green;
+}
+    .box{
+        display: flex;
+        flex: 1;
+        margin: 15px;
+        border: solid black;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+.encabezado{
+    display: flex;
+    height: 300px;
+    border: solid black;
+    flex-basis: 800px;
+    background-color: rgb(43, 108, 184);
+}
+.banner{
+    flex-basis: 800px;
+    border: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background-color: white;
+}
+.columna{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(43, 108, 184);
+}
+.inf{
+    display: flex;
+    border: solid black;
+    margin: 5px;
+    height:  80px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.inicio{
+    display: flex;
+    height: 500px;
+    border: solid black;
+    background-color: gray;
+}
+.aside_izquierdo{
+display: flex;
+border: solid black; 
+margin: 5px;
+justify-content: center;
+align-items: center;
+flex-basis: 200px;
+background-color: white;
+}
+.Articulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+    flex-basis: 500px;
+    margin: 5px;
+    background-color: white;
+}
+.aside_derecho{
+    display: flex;
+    border: solid black; 
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 300px;
+    background-color: white;
+}
+.pie{
+    height: 50px;
+    border: solid black;
+    background-color: orange;
+}
